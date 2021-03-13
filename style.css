@@ -13,8 +13,9 @@ h1 {
 }
 .background-header-survival {
     background-image: url(img/bg.png);
-    width: 100%;
-    height: 776px;
+    background-size: cover;
+    height: 778px;
+    background-color: #02160b
 }
 
 .main {
@@ -116,19 +117,20 @@ h1 {
 .survival-text {
     max-width: 277px;
     margin-top: 52px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .btn {
     font-size: 23px;
-    margin-top: 42px;
+    margin-top: 51px;
     text-decoration: none;
     border-radius: 5px;
     background-color: #CD6326;
-    padding: 11px 23px 14px 43px;
+    padding: 11px 26px 16px 40px;
     width: 93px;
     height: 31px;
     transition: 0.2s ease;
+    cursor: pointer;
 }
  .btn:hover{
      background-color: #E39128;
@@ -139,15 +141,15 @@ h1 {
      font-size: 48px;
      font-weight: 400;
      text-align: center;
-     padding-top: 64px;
+     padding-top: 63px;
      padding-right: 39px;
  }
  .main-p {
      text-align: center;
      font-family: 'Open Sans', sans-serif;
      font-size: 24px;
-     margin-top: 25px;
-     margin-right: 79px;
+     margin-top: 24px;
+     padding-right: 78px;
  }
  .bg-image-deer {
      background-image: url(img/Rectangle.jpg);
@@ -160,7 +162,7 @@ h1 {
     font-size: 22px;
     font-weight: 400;
     color: #FFF;
-    padding-top: 250px;
+    padding-top: 251px;
     text-align: center;
     margin: 0;
  }
@@ -190,7 +192,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding-top: 121px;
-    grid-gap: 61px;
+    grid-gap: 62px;
     margin-right: 68px;
 }
 .grid-item-arrow-left {
@@ -221,15 +223,20 @@ button {
     outline: none;
     background-color: transparent;
     padding: 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:hover {
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.3));
 }
 
 .title-input {
     text-align: center;
-    padding-top: 214px;
+    padding-top: 215px;
     font-family: 'Open Sans', sans-serif;
     font-size: 27px;
     font-weight: 400;
-    padding-right: 79px;
+    padding-right: 78px;
 }
 .input {
     padding-top: 33px;
@@ -259,11 +266,17 @@ button {
     border: 1px solid transparent;
     border-radius: 3px;
     color: #FFF;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.send:hover {
+    background-color: #8F5613;
 }
 .bg-footer {
     background-image: url(img/bgfooter.jpg);
     width: 100%;
     height: 360px;
+    background-color: #181617;
 }
 .footer-top {
     display: flex;
@@ -281,7 +294,7 @@ button {
 .nav-li {
     list-style-type: none;
     padding-left: 48px;
-    padding-right: 39px;
+    padding-right: 40px;
 }
 
 .nav-li a {
